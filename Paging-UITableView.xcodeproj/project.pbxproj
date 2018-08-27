@@ -14,6 +14,7 @@
 		0BB4A575212C022600D7F466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB4A573212C022600D7F466 /* LaunchScreen.storyboard */; };
 		0BB4A580212C022600D7F466 /* Paging_UITableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4A57F212C022600D7F466 /* Paging_UITableViewTests.swift */; };
 		0BB4A58B212C022600D7F466 /* Paging_UITableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4A58A212C022600D7F466 /* Paging_UITableViewUITests.swift */; };
+		0BB4A599212C12B300D7F466 /* UITableViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB4A598212C12B300D7F466 /* UITableViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0BB4A586212C022600D7F466 /* Paging-UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paging-UITableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB4A58A212C022600D7F466 /* Paging_UITableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paging_UITableViewUITests.swift; sourceTree = "<group>"; };
 		0BB4A58C212C022600D7F466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB4A598212C12B300D7F466 /* UITableViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				0BB4A571212C022600D7F466 /* Assets.xcassets */,
 				0BB4A573212C022600D7F466 /* LaunchScreen.storyboard */,
 				0BB4A576212C022600D7F466 /* Info.plist */,
+				0BB4A598212C12B300D7F466 /* UITableViewExt.swift */,
 			);
 			path = "Paging-UITableView";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB4A56D212C022600D7F466 /* ViewController.swift in Sources */,
+				0BB4A599212C12B300D7F466 /* UITableViewExt.swift in Sources */,
 				0BB4A56B212C022600D7F466 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
